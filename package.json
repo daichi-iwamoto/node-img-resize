@@ -1,0 +1,23 @@
+{
+  "name": "img-resize",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "resize": "node sharp.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daichi-iwamoto/node-img-resize.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daichi-iwamoto/node-img-resize/issues"
+  },
+  "homepage": "https://github.com/daichi-iwamoto/node-img-resize#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "sharp": "^0.26.2"
+  }
+}
